@@ -1,0 +1,64 @@
+.todoItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 5px 0;
+    transition: background-color 0.3s;
+  }
+  
+  .todoItem:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .todoTitle {
+    flex-grow: 1;
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  
+  .editInput {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+    width: 60%;
+  }
+  
+  /* Updated button styles */
+  .deleteButton {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-left: 10px; /* Adds gap between buttons */
+  }
+  
+  .deleteButton:hover {
+    background-color: #ff1a1a;
+    transform: translateY(-1px);
+  }
+  
+  .editButton {
+    background-color: #4CAF50; /* Green background for edit button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .editButton:hover {
+    background-color: #45a049;
+    transform: translateY(-1px);
+  }
+  
+  .checkbox {
+    cursor: pointer;
+  }
+  
