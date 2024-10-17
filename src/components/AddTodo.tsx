@@ -1,4 +1,3 @@
-// src/components/AddTodo.tsx
 import React, { useState } from "react";
 import { useTodos } from "../context/TodoContext";
 
