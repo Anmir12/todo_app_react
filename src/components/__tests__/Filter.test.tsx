@@ -1,4 +1,3 @@
-// src/components/Filter.test.tsx
 import { render, screen, fireEvent } from '@testing-library/react';
 import { TodoProvider } from "../../context/TodoContext";
 import Filter from '../Filter';
